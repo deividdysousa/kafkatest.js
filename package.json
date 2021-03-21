@@ -9,6 +9,6 @@
   },
   "scripts": {
     "dev": "sucrase-node src/index.js",
-    "build": ""
+    "build": "sucrase ./src -d ./build --transforms imports"
   }
 }
